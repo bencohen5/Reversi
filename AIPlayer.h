@@ -6,7 +6,9 @@
 #define REVERSI_AIPLAYER_H
 
 
-class AIPlayer {
+class AIPlayer : public Player {
+private:
+    const Board& board;
 
 };
 
